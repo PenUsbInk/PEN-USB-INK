@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(Fonts/HelveticaNeueLTPro-Roman.otf)
+}
+
+@font-face {
+    font-family: Sowide;
+    src: url(Fonts/SOWIDE__.ttf)
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+        font-family: Helvetica;
+        font-size: 24px;
+         width: 70%;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: underline;
+}
+
+    h3 {
+        font-family: Helvetica;
+        font-size: 24px;
+        color: red;
+        font-weight: 400;
+        border-bottom: solid 2px red;
+        border-top: solid 2px red;
+        text-transform: uppercase;
+    }
+
+/*  MAIN CONTAINER  */
+
+#main-container {
+    width: 960px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*  MENU    */
+
+#menu {
+    width: 960px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-bottom: solid 2px black;
+    justify-content: space-between
+}
+
+#menu a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    color: red;  
+}
+
+#menu a::first-letter {
+    text-decoration: underline;   
+}
+
+.menu-2 {
+    display: none;
+}
+
+.nothing {
+    width: 100%;
+    height: 60px;
+    
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-image: url(images/logo.svg)
+    
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    align-self: center;
+}
+
+/*  BLOCOS DE CONTEUDO  */
+
+#edit, #update, #static, #source, #filter, #ctrl, #cloud, #usb  {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+
+}
+
+.title {
+    font-family: Sowide;
+    font-size: 64px;
+    background-color: white;
+}
+
+.text {
+    width: 70%;
+    font-size: 18px;
+}
+
+
+.site, .site:link, .site:visited {
+    color: blue;
+}
+
+.site:hover, .site:active {
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

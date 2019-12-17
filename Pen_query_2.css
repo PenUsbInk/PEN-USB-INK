@@ -1,0 +1,156 @@
+@media only screen and (max-width:960px) {
+
+    /*    BARRA DE NAVEGAÇÃO    */
+
+    #menu {
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        border-bottom: solid 2px black;
+        justify-content: space-between
+    }
+
+    #menu a {
+        display: none;
+    }
+
+
+    #menu-container {
+        display: block;
+        flex-direction: row;
+    }
+
+    h1 {
+        font-family: Sowide;
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 5px;
+    }
+
+    .menu-2 {
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .logo-2 {
+        width: 60px;
+        height: 60px;
+        background-image: url(images/logo.svg);
+        background-size: cover;
+    }
+
+
+    .botao {
+        display: block;
+    }
+
+    .dropbtn {
+        width: 60px;
+        height: 60px;
+        background-image: url(images/EmptyBurger.svg);
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .dropbtn:hover,
+    .dropbtn:focus {
+        background-image: url(images/FullBurger.svg);
+        background-size: cover;
+        background-color: white;
+    }
+
+
+
+    .dropdown-content {
+        display: none;
+        position: fixed;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    a::first-letter {
+        text-decoration: underline;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 20px 20px 10px 20px;
+        text-decoration: none;
+        display: block;
+        border-bottom: solid 2px black;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .menu-2 a:hover {
+        background-color: white;
+
+    }
+
+    .menu-2 a:active {
+        color: red;
+
+    }
+
+    .show {
+        display: block;
+    }
+
+
+    /*      CONTEUDOS    */
+
+    .text {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 88px;
+    }
+
+    .site {
+        width: 100%;
+    }
+
+    .site:hover {
+        color: blue;
+    }
+
+    h2 {
+        font-size: 24px;
+        width: 100%;
+
+    }
+
+    h3 {
+        font-family: Helvetica;
+        font-size: 24px;
+        color: red;
+        font-weight: 400;
+        border-bottom: solid 2px red;
+        border-top: solid 2px red;
+        text-transform: uppercase;
+    }
+
+    h3::first-letter {
+        text-decoration: underline;
+    }
+
+
+
+
+}
