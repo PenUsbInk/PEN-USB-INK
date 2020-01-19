@@ -146,6 +146,7 @@ h3 {
 }
 
 .bubles {
+    background-image: url(images/Bolhas.gif);
     width: 70%;
     height: 300px;
 }
