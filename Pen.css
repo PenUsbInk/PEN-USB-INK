@@ -19,23 +19,25 @@ body {
 }
 
 h2 {
-        font-family: Helvetica;
-        font-size: 24px;
-         width: 70%;
-        font-weight: 400;
-        text-transform: uppercase;
-        text-decoration: underline;
+    font-family: Helvetica;
+    font-size: 24px;
+    width: 70%;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
-    h3 {
-        font-family: Helvetica;
-        font-size: 24px;
-        color: red;
-        font-weight: 400;
-        border-bottom: solid 2px red;
-        border-top: solid 2px red;
-        text-transform: uppercase;
-    }
+h3 {
+    width: 70%;
+    font-family: Helvetica;
+    font-size: 24px;
+    color: red;
+    font-weight: 400;
+    padding-top: 10px;
+    border-bottom: solid 2px red;
+    border-top: solid 2px red;
+    text-transform: uppercase;
+}
 
 /*  MAIN CONTAINER  */
 
@@ -69,11 +71,11 @@ h2 {
 }
 
 #menu a:hover {
-    color: red;  
+    color: red;
 }
 
 #menu a::first-letter {
-    text-decoration: underline;   
+    text-decoration: underline;
 }
 
 .menu-2 {
@@ -83,14 +85,13 @@ h2 {
 .nothing {
     width: 100%;
     height: 60px;
-    
+
 }
 
 .logo {
     width: 60px;
     height: 60px;
     background-image: url(images/logo.svg)
-    
 }
 
 .line {
@@ -102,7 +103,14 @@ h2 {
 
 /*  BLOCOS DE CONTEUDO  */
 
-#edit, #update, #static, #source, #filter, #ctrl, #cloud, #usb  {
+#edit,
+#update,
+#static,
+#source,
+#filter,
+#ctrl,
+#cloud,
+#usb {
     width: 95%;
     height: auto;
     padding: 20px;
@@ -125,31 +133,14 @@ h2 {
 }
 
 
-.site, .site:link, .site:visited {
+.site,
+.site:link,
+.site:visited {
     color: blue;
 }
 
-.site:hover, .site:active {
+.site:hover,
+.site:active {
     color: red;
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
