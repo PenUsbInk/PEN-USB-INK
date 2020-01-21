@@ -145,6 +145,16 @@ h3 {
 
 }
 
+iframe {
+    width: 70%;
+    height: 300px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
 .bubles {
     background-image: url(images/Bolhas.gif);
     width: 70%;
